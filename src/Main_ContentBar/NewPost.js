@@ -1,5 +1,5 @@
 import React from "react";
-//import LeftSideContents from "../Contents/LeftSideContents";
+import LeftSideContents from "../Contents/LeftSideContents";
 import WritePost from "./WritePost";
 import "./NewPost.css";
 
@@ -15,7 +15,7 @@ const NewPost = (props) => {
 
   return (
     <div>
-      {/* <LeftSideContents className="pos" onAddPost={getData} /> */}
+      <LeftSideContents className="pos" onAddPost={getData} /> 
       <WritePost onAddPost={getData} />
     </div>
   );

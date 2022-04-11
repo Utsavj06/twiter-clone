@@ -69,6 +69,7 @@ function LeftSideContents(props) {
     }
     props.onAddPost(enteredData);
     setIsOpen(false);
+    setData("");
   };
   return (
     <Left className={props.className}>

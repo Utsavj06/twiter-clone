@@ -25,11 +25,12 @@
 
 .pop-up {
   background-color: Black;
+  top:0;
   width: 400px;
   height: 300px;
-  margin-top:-60%;
+  margin:12% 35%;
   border: 0.05px solid silver;
-  position:absolute;
+  position:fixed;
 }
 
 .sizing {
